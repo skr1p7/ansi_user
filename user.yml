@@ -1,0 +1,8 @@
+---
+- name: Make new user
+  hosts: localhost
+  tasks:
+    - name: Add new user
+      user:
+        name: user1
+        password: '$6$1qtl3sAma$ZpMeBc5hHC6FqvrjMe2sBg3MrSz.NdLVME3W.zf22ZyCeyfLHF4H.YNg7XNQuEA0/Sd7xV.neEcDbQLXgJNy/1'
